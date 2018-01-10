@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+         <style>
+                body {
+                    background-color: #fff;
+                    font-family: 'Bree Serif', serif;
+                }
+                header {
+                    text-align: center;
+                    background: url("https://i.imgur.com/r1ITi8N.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    color: #fff;
+                    margin: 0;
+                    padding: 0;
+                }
+                span {
+                    color: #ef3426;
+                    float: right;
+                    font-weight: bold;
+                }
+                img {
+                    width: 300px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                }
+                footer {
+                    color: #fff;
+                    background-color: black;
+                    text-align: center;
+                    position: static;
+                    height: 50px;
+                    bottom: 0px;
+                    left: 0px;
+                    right: 0px;
+                    margin-bottom: 10px;
+
+                }
+                p {
+                    background: black;
+                    background: linear-gradient(bottom, rgba(0,0,0,1),
+                    rgba(0,0,0,.4));
+                    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1),                     rgba(0,0,0,.4));
+                    background: -moz-linear-gradient(bottom, rgba(0,0,0,1),                        rgba(0,0,0,.4));
+
+                }
+                #headerTitle {
+                    font-size: 70px;
+
+                }
+                #headerSubTitle {
+                    font-size: 30px;
+                }
+                .menu-item {
+                    width: 30%;
+                    height: 300px;
+                    display: inline-grid;
+                    margin: 20px 10px 20px 10px;
+                    background-position: center;
+                    background-size: cover;
+                    color: #fff;
+                    background-clip: border-box;
+                    padding: 5px 5px 5px 5px;
+                    margin: 20px 5px 25px 10px;
+
+                }
+
+                .menu-item h1 {
+                    background: rgba(0,0,0,0.3);
+                    font-size: 30px;
+
+                    margin: 5px 5px 5px 5px;
+                }
+                .first {
+                     background-image: url("https://i.imgur.com/G8Lbdh1.jpg");
+                }
+                .second {
+                    background-image: url("https://i.imgur.com/Y0JEzKr.jpg");
+                }
+                .third {
+                    background-image: url("https://i.imgur.com/lLNLQx4.jpg");
+                }
+                .fourth {
+                    background-image: url("https://i.imgur.com/XCwXJE6.jpg");
+                }
+                .fifth {
+                    background-image: url("https://i.imgur.com/5SGMJgJ.jpg");
+                }
+                .sixth {
+                    background-image: url("https://i.imgur.com/XewoXp8.jpg");
+                }
+                .welcome {
+                  color: white;
+                  background-color: #d52b1e;
+                  text-align: center;
+                  border-width: 10px;
+                  border-style: solid;
+                  border-color: black;
+                  }
+
+                @media (max-width: 500px) {
+                    header {
+                      font-size: 40px;
+                      margin-top: 20px;
+                      line-height: 40px;
+                      background-color: rgba(0,0,0, 0.3)
+                    }
+                    header h1 {
+                      color: #d52b1e;
+                      font-size: 20px;
+                      margin: 20px 0 30px 0;
+                    }
+
+                    .menu-item {
+                      /* margin: 20px 12px 0 12px; */
+                      display: block;
+                      width: 250px;
+                    }
+
+                    .menu-item h1 {
+                        font-size: 20px;
+                      }
+
+                    p {
+                      font-size: 15px;
+                      line-height: 24px;
+                    }
+                    footer {
+                      height: 200px;
+                      position: static;
+                      bottom: 10px;
+                      background: black;
+
+                      }
+                      img {
+                        width: 200px;
+                        }
+                }
+
+         </style>
+     </head>
+    <body>
+        <header>
+
+                <h1 id="headerTitle"> Los Andes </h1>
+
+                 <h2 id="headerSubTitle"> El Sabor del Perú en la corazón de Texas</h2>
+
+     </header>
+     <div class="welcome"> Welcome to Los Andes Peruvian Grill! We are family owned and operated and have brought the best of Andean cuisine to the Greater Houston area since 1977. Select from any of our delicious entrees cooked to perfection by our award winning chefs.</div>
+
+            <div class="menu-item first">
+                <h1>Lomo Saltado <span>$22</span></h1>
+                <p>Chifa influenced wok sautéed angus sirloin strips,
+                tomatoes, onions, kiko soy, beef stock, red wine vinegar and
+                cilantro, served with steak fries and white rice.
+                </p>
+            </div>
+            <div class="menu-item second">
+                <h1>Chicharron <span>$13</span></h1>
+                <p>Confit pork spare ribs, with essence of cinnamon,
+                    bay leaf and lime, fried and served with mote,
+                    fried potato and topped with a queso blanco, tomato,
+                    and onion salsa
+                </p>
+            </div>
+            <div class="menu-item third">
+                <h1>Lomo Montado <span> $17</span></h1>
+                <p>Pan seared top sirloin steak, deglazed with marsalla wine,
+                    served with roasted potatoes, white rice,
+                    topped with fried eggs and chef salad.
+                </p>
+            </div>
+            <div class="menu-item fourth">
+                <h1>Pollos A Los Andes <span>$15</span></h1>
+                <p>Strips of chicken breast, sautéed with chorizo,
+                    cherry and banana peppers, onions, tomatoes, finished in a garlic-wine broth,
+                    served on a bed of steak fries topped with mozzarella cheese and scallions.
+                </p>
+            </div>
+            <div class="menu-item fifth">
+                <h1>El Vegetariano <span> $16</span></h1>
+                <p>Medley of house grilled vegetables served
+                 with your choice of veggie Chaufa rice or
+                 arroz con queso.
+                </p>
+            </div>
+            <div class="menu-item sixth">
+                <h1>Bistec A Lo Pobre <span>$23</span></h1>
+                <p>Pan seared top sirloin, in a jus,
+                    served with sweet plantains, french fries,
+                    white rice and topped with fried eggs.
+                </p>
+            </div>
+        <footer>
+            <p> Find us at our convienently located downtown address: <br>
+                3304 Canal Street, Houston, TX
+                <img src="https://i.imgur.com/u0sFRh8.jpg">
+            </p>
+        </footer>
+    </body>

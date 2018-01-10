@@ -1,0 +1,33 @@
+var arr = [
+    {"joke": "Why do cows have hooves and not feet? \n\n\nBecause they lactose \n"},
+    {"joke": "How does a gingerbread man stay warm at night? \n\nCookie Sheets \n"},
+    {"joke": "What's the biggest rip-off in fashion? \n\n\nVelcro"},
+    {"joke": "What days are strongest? \n\n\nSaturday and Sunday because the rest are week days \n"},
+    {"joke": "Why did the blind man fall into a watering hole? \n\n\nBecause he couldn't see that well\n"},
+    {"joke": "What did the flag say to his friend? \n\n\nNothing, he waved.\n"},
+    {"joke": "How does Moses make his tea? \n\n\n Hebrews it\n"},
+    {"joke": "Did you here about the kid napping in broad daylight outside the school? \n\n\nIt's okay though, he woke up\n"},
+    {"joke": "My son's math teachers says he's average, I think he's mean\n"},
+    {"joke": "Why don't ducks make good detectives? \n\n\nBecause they can't quack the case\n"},
+    {"joke": "What do you call an academic paper written by a Dad? \n\n\nA Parent thesis\n"},
+    {"joke": "What do you get when you cross a vampire and a snowman? \n\n\nFrost Bite\n"},
+    {"joke": "How do you pick a prestigious cow? \n\n\nBecause they're outstanding in their field\n"},
+    {"joke": "A duck goes to the checkout counter and notices he doesn't have enough money for his purchase. \n\n\nHe asks the cashier, \'Can I put it on my bill?\'\n"},
+    {"joke": "Why does the Earth like to twirl? \n\n\nBecause it makes its day\n"},
+    {"joke": "What is a mathmaticians favorite bra? \n\n Algerbra\n"},
+    {"joke": "When does a joke become a Dad joke \n\n\nWhen it's fully groan\n"},
+    {"joke": "What do you call a salt shaker with a gun? \n\n\n Assault with a deadly weapon\n"},
+    {"joke": "Why did the can crush quit his job> \n\n\nBecause it was soda pressing\n"},
+    {"joke": "Why did the skeleton go to talk with customer service? \n\n\nBecause he had a bone to pick\n"},
+    {"joke": "What is the best angle from which to approach any problem? \n\n\nThe TRYangle\n"},
+    {"joke": "Why did the cofee call 911? \n\n\nBecause it was muggged\n"},
+    {"joke": "Why does a chicken coop only have 2 door? \n\n\nBecause if it had 4 doors, it would be a chicken Sedan\n"},
+    {"joke": "Why can't you hear a ptderodactyl going to the bathroom? \n\n\nBecause the \'p\' is silent\n"},
+    {"joke": "What do Lawyers wear to court? \n\n\nA law suit\n"},
+    {"joke": "What do you call a person who takes care of chickens? \n\n\nA chicken tender\n"},
+    {"joke": "Why is it so hard to make puns for kleptomaniacs? \n\n\nTHey are always taking things literally\n"},
+    {"joke": "It cost the government more to make pennies than what they're worth. That barely makes cents.\n"},
+    {"joke": "How does NASA prepare for a party? \n\n\nThey Planet\n"}
+];
+
+module.exports.arr = arr;
