@@ -17,7 +17,7 @@ var countingVariable = 0;
 console.log(jokes.length);
 
 
-let textJob = new cronJob('1-59 0-23 * * 1-5', function () {
+let textJob = new cronJob('0 0-23 * * 1-5', function () {
     msg = jokes[countingVariable].joke;
     if (countingVariable < jokes.length) {
         countingVariable ++;
