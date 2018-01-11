@@ -9,15 +9,15 @@ const nexmo = new Nexmo({
 })
 
 const VIRTUAL_NUMBER = 12109619227;
-const TARGET_NUMBER = 17135170617;
+const TARGET_NUMBER = 14015590028;
 
-let msg = "I have become self-aware";
+let msg = "";
 var countingVariable = 0;
 
 console.log(jokes.length);
 
 
-let textJob = new cronJob('0 22 * * 1-5', function () {
+let textJob = new cronJob('0 8 * * 1-5', function () {
     msg = jokes[countingVariable].joke;
     if (countingVariable < jokes.length) {
         countingVariable ++;
@@ -35,7 +35,7 @@ let textJob = new cronJob('0 22 * * 1-5', function () {
             }
         }
     ) //end
-}, null, true, 'America/Chicago');
+}, null, true, 'America/New_York');
 
 
 

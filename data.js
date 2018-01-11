@@ -1,5 +1,5 @@
 var arr = [
-    {"joke": "Why do cows have hooves and not feet? \n\n\nBecause they lactose \n"},
+    {"joke": "Hey baby, \n\n So by the time you're getting this I should be on a plane to come see you. So if you're wondering why you're getting a text from me from this weird number, it's because this is a virtual bot I made. I know you always say that love you my stupid Dad jokes, so I made this program as your first christmas gift. I currated a database of dad jokes and this robot will send them to you every morning at 8 am just as your about to start your work day. I love you babe, and hope you enjoy it, Merry Christmas cutie. \n\n  Why do cows have hooves and not feet? \n\n\nBecause they lactose \n"},
     {"joke": "How does a gingerbread man stay warm at night? \n\nCookie Sheets \n"},
     {"joke": "What's the biggest rip-off in fashion? \n\n\nVelcro"},
     {"joke": "What days are strongest? \n\n\nSaturday and Sunday because the rest are week days \n"},
