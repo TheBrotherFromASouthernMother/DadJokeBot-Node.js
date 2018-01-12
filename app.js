@@ -12,12 +12,12 @@ const VIRTUAL_NUMBER = 12109619227;
 const TARGET_NUMBER = 14015590028;
 
 let msg = "";
-var countingVariable = 0;
+var countingVariable = 1;
 
 console.log(jokes.length);
 
 
-let textJob = new cronJob('0 8 * * 1-5', function () {
+let textJob = new cronJob('0 9 * * 1-5', function () {
     msg = jokes[countingVariable].joke;
     if (countingVariable < jokes.length) {
         countingVariable ++;
@@ -35,7 +35,7 @@ let textJob = new cronJob('0 8 * * 1-5', function () {
             }
         }
     ) //end
-}, null, true, 'America/New_York');
+}, null, true, 'America/Chicago');
 
 
 
