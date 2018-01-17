@@ -9,7 +9,7 @@ const nexmo = new Nexmo({
 })
 
 const VIRTUAL_NUMBER = 12109619227;
-const TARGET_NUMBER = 14015590028;
+const TARGET_NUMBER = 17135170617;
 
 let msg = "";
 var countingVariable = 1;
@@ -17,7 +17,7 @@ var countingVariable = 1;
 console.log(jokes.length);
 
 
-let textJob = new cronJob('0 7 * * 1-5', function () {
+let textJob = new cronJob('* * * * 1-5', function () {
     msg = jokes[countingVariable].joke;
     if (countingVariable < jokes.length) {
         countingVariable ++;
