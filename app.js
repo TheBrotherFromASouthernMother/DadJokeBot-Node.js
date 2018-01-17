@@ -19,6 +19,7 @@ console.log(jokes.length);
 
 let textJob = new cronJob('0 7 * * 1-5', function () {
     msg = jokes[countingVariable].joke;
+    console.log(msg);
     if (countingVariable < jokes.length) {
         countingVariable ++;
     } else {
@@ -31,7 +32,7 @@ let textJob = new cronJob('0 7 * * 1-5', function () {
             if (err) {
                 console.log(err);
             } else {
-                console.dir(responseData);
+                console.dir(responseData.messages[0]['remaining-balance']);
             }
         }
     ) //end
