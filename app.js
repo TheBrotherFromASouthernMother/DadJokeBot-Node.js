@@ -12,7 +12,7 @@ const VIRTUAL_NUMBER = 12109619227;
 const TARGET_NUMBER = 14015590028;
 
 let msg = "";
-var countingVariable = 2;
+var countingVariable = 6;
 
 console.log(jokes.length);
 
