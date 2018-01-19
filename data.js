@@ -61,8 +61,8 @@ var arr = [
     {"joke": "What did the baby corn say to mama corn?\n\n\n\'Where's popcorn?\'"},
     {"joke": "What do you call a Nun who is sleep walking?\n\n\nA Roamin\' Catholic"},
     {"joke": "Why can't T-Rex's clap their hands?\n\n\nBecause they're extinct"},
-    {"joke": "How did the hamburger introduce his girlfriend?\n\n\n\'Meat Patty\'"}
-    {"joke": "Why was the scuba diver such a great philopsher?\n\n\nBecause he was so deep."},
+    {"joke": "How did the hamburger introduce his girlfriend?\n\n\n\'Meat Patty\'"},
+    {"joke": "Why was the scuba diver such a great philopsher?\n\n\nBecause he was so deep"},
     {"joke": "What’s the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle?\n\n\nAttire"}
 ];
 
