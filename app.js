@@ -12,7 +12,7 @@ const VIRTUAL_NUMBER = 12109619227;
 const TARGET_NUMBER = 14015590028;
 
 let msg = "";
-var countingVariable = 6;
+let countingVariable = Math.floor((Math.random() * jokes.length) + 1);
 
 console.log(jokes.length);
 
@@ -20,12 +20,6 @@ console.log(jokes.length);
 let textJob = new cronJob('0 7 * * 1-5', function () {
     msg = jokes[countingVariable].joke;
     console.log(msg);
-    if (countingVariable < jokes.length) {
-        countingVariable ++;
-    } else {
-        console.log('process ended');
-        process.abort();
-    }
     nexmo.message.sendSms(VIRTUAL_NUMBER, TARGET_NUMBER, msg,
         (err, responseData) => {
             console.log("Message Sending...");

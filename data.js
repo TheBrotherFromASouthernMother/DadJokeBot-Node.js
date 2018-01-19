@@ -1,5 +1,5 @@
 var arr = [
-    {"joke": "Hey baby, \n\n So by the time you're getting this I should be on a plane to come see you. So if you're wondering why you're getting a text from me from this weird number, it's because this is a virtual bot I made. I know you always say that love you my stupid Dad jokes, so I made this program as your first christmas gift. I currated a database of dad jokes and this robot will send them to you every morning at 8 am just as your about to start your work day. I love you babe, and hope you enjoy it, Merry Christmas cutie. \n\n  Why do cows have hooves and not feet? \n\n\nBecause they lactose \n"},
+    //{"joke": "Hey baby, \n\n So by the time you're getting this I should be on a plane to come see you. So if you're wondering why you're getting a text from me from this weird number, it's because this is a virtual bot I made. I know you always say that love you my stupid Dad jokes, so I made this program as your first christmas gift. I currated a database of dad jokes and this robot will send them to you every morning at 8 am just as your about to start your work day. I love you babe, and hope you enjoy it, Merry Christmas cutie. \n\n  Why do cows have hooves and not feet? \n\n\nBecause they lactose \n"},
     {"joke": "How does a gingerbread man stay warm at night? \n\nCookie Sheets \n"},
     {"joke": "What's the biggest rip-off in fashion? \n\n\nVelcro"},
     {"joke": "What days are strongest? \n\n\nSaturday and Sunday because the rest are week days \n"},
@@ -56,7 +56,14 @@ var arr = [
     {'joke': "Why did the number 4 ruin the party?\n\n\nBecause he is 2 square"},
     {'joke': "I bought shoes from a drug dealer once. I don't know what he laced them with, but I was tripping all day"},
     {'joke': "Why did the student stop following their dreams?\n\n\nBecause all they ever posted was trashy memes"},
-    {'joke': "\n\n\n"},
+    {'joke': "How do you find Will Smith in the Snow?\n\n\nFresh Prints"},
+    {"joke": "What does the dentist of the year get?\n\n\nA little plaque"},
+    {"joke": "What did the baby corn say to mama corn?\n\n\n\'Where's popcorn?\'"},
+    {"joke": "What do you call a Nun who is sleep walking?\n\n\nA Roamin\' Catholic"},
+    {"joke": "Why can't T-Rex's clap their hands?\n\n\nBecause they're extinct"},
+    {"joke": "How did the hamburger introduce his girlfriend?\n\n\n\'Meat Patty\'"}
+    {"joke": "Why was the scuba diver such a great philopsher?\n\n\nBecause he was so deep."},
+    {"joke": "What’s the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle?\n\n\nAttire"}
 ];
 
 module.exports.arr = arr;
