@@ -66,5 +66,4 @@ var arr = [
     {"joke": "What’s the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle?\n\n\nAttire"}
 ];
 
-console.log(arr[62].joke)
 module.exports.arr = arr;

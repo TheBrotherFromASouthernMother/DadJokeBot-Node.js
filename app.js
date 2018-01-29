@@ -13,9 +13,7 @@ const TARGET_NUMBER = 14015590028;
 
 let msg = "";
 let countingVariable = Math.floor((Math.random() * jokes.length) + 1);
-
-console.log(jokes.length);
-
+console.log(countingVariable);
 
 let textJob = new cronJob('0 7 * * 1-5', function () {
     msg = jokes[countingVariable].joke;
@@ -30,7 +28,7 @@ let textJob = new cronJob('0 7 * * 1-5', function () {
             }
         }
     ) //end
-    console.log(countingVariable);
+    
 }, null, true, 'America/Chicago');
 
 
