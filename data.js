@@ -63,7 +63,8 @@ var arr = [
     {"joke": "Why can't T-Rex's clap their hands?\n\n\nBecause they're extinct"},
     {"joke": "How did the hamburger introduce his girlfriend?\n\n\n\'Meat Patty\'"},
     {"joke": "Why was the scuba diver such a great philopsher?\n\n\nBecause he was so deep"},
-    {"joke": "What’s the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle?\n\n\nAttire"}
+    {"joke": "What’s the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle?\n\n\nAttire"},
+    {"joke": "What do you call the mixture of a donkey and a deer?\n\n\nDat Ass Doe"}
 ];
 
 module.exports.arr = arr;
