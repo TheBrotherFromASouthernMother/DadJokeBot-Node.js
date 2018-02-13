@@ -28,7 +28,7 @@ let textJob = new cronJob('0 7 * * 1-5', function () {
             }
         }
     ) //end
-    
+
 }, null, true, 'America/Chicago');
 
 

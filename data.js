@@ -64,7 +64,14 @@ var arr = [
     {"joke": "How did the hamburger introduce his girlfriend?\n\n\n\'Meat Patty\'"},
     {"joke": "Why was the scuba diver such a great philopsher?\n\n\nBecause he was so deep"},
     {"joke": "What’s the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle?\n\n\nAttire"},
-    {"joke": "What do you call the mixture of a donkey and a deer?\n\n\nDat Ass Doe"}
+    {"joke": "What do you call the mixture of a donkey and a deer?\n\n\nDat Ass Doe"},
+    {"joke": "If you are Russian when you go to the bathroom and you're Finnish when you leave the bathroom. What are you when you're in the bathroom?\n\n\nEuropean"},
+    {"joke": "Why is it a bad idea to keep your goldfish in a tank?\n\n\nBecause they don't know how to drive"},
+    {"joke": "What do you call a cow that just gave birth?\n\n\nDecalfinated"},
+    {"joke": "How can you tell if a joke is a dad joke?\n\n\nIf the punchline is apparent"},
+    {"joke": "Why is it better to get hit in the head with a bottle of coca-cola than a bottle of water?\n\n\nBecause it's a soft drink"},
+    {'joke': "If athletes get athletes foot, what do astronauts get?\n\n\nMissle toe"}
+
 ];
 
 module.exports.arr = arr;
