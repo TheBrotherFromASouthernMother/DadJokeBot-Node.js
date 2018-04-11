@@ -15,7 +15,7 @@ let msg = "";
 let countingVariable = Math.floor((Math.random() * jokes.length) + 1);
 console.log(countingVariable);
 
-let textJob = new cronJob('0 7 * * 1-5', function () {
+let textJob = new cronJob('0 7 * * 1-5', () => {
     msg = jokes[countingVariable].joke;
     console.log(msg);
     nexmo.message.sendSms(VIRTUAL_NUMBER, TARGET_NUMBER, msg,
@@ -30,10 +30,3 @@ let textJob = new cronJob('0 7 * * 1-5', function () {
     ) //end
 
 }, null, true, 'America/Chicago');
-
-
-
-//
-// var textJob = new cronJob( '0 18 * * *', function(){
-//   client.messages.create( { to:'YOURPHONENUMBER', from:'YOURTWILIONUMBER', body:'Hello! Hope you’re having a good day!' }, function( err, data ) {});
-// },  null, true);
