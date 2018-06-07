@@ -6,6 +6,9 @@ Dad Joke Bot is a simple servless application that delivers a random dad joke to
 ## Technologies used
   * JavaScript (ES6)
   * Node.js
+  * Express.js
+  * MongoDB
+  * Mongoose
   * Cron package
   * Nexmo Api
   * Git
